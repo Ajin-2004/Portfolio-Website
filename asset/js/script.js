@@ -126,13 +126,13 @@ const skills=[
   {name:"Requirement Gathering & User Stories",value:85},
   {name:"Issue Triage & SLA Management",value:88},
   {name:"Stakeholder Communication",value:87},
-  {name:"Agile / Scrum Workflows",value:80},
-  {name:"Python (Pandas, NumPy, scikit-learn)",value:88},
+  {name:"Agile / Scrum Workflows",value:70},
+  {name:"Python (Pandas, NumPy, scikit-learn)",value:80},
   {name:"SQL (MySQL, Oracle, MSSQL)",value:90},
-  {name:"Power BI / Tableau",value:82},
-  {name:"Flask / Django / Node.js",value:78},
+  {name:"Power BI / Tableau",value:80},
+  {name:"Flask / Django / Node.js",value:60},
   {name:"Excel & MIS Reporting",value:92},
-  {name:"Git & GitHub",value:85},
+  {name:"Git & GitHub",value:75},
   {name:"Troubleshooting",value:88},
 ];
 const sg=document.getElementById('skills-grid');
@@ -147,7 +147,7 @@ skills.forEach(s=>{
    EXPERIENCE
 ════════════════════════════════════════ */
 const roles=[
-  {title:"Product Specialist",org:"Linways Technologies Pvt. Ltd.",when:"Jan 2026 — Present",place:"Bengaluru",
+  {title:"Product Specialist",org:"Linways Technologies Pvt. Ltd.",when:"Jan 2026 — Oct 2026",place:"Bengaluru",
    points:["Primary point of contact for enterprise platform users — triaging and resolving technical issues with zero SLA breach.","Review system data to flag discrepancies and coordinate fixes with product & engineering teams.","Translate stakeholder requirements into platform capabilities, bridging clients and the engineering team."]},
   {title:"Billing & Records Assistant",org:"Aishu Enterprises",when:"Jun 2025 — Dec 2025",place:"Bengaluru",
    points:["Maintained sales, purchase, and inventory data in Excel with 100% data integrity.","Delivered weekly and monthly MIS reports on time, every time.","Spotted stock anomalies early and escalated with structured documentation."]},
@@ -235,6 +235,7 @@ projects.forEach((p,i)=>{
    CERTIFICATIONS
 ════════════════════════════════════════ */
 const certs=[
+  {name:"Introduction to Cybersecurity",org:"Cisco Network Academy",note:"Threat Detection, Network Security, Data Privacy, Vulnerability Management",icon:"🌐"},
   {name:"PyNum AI Developer Certification",org:"Python Academy",note:"NumPy, Pandas, data analysis pipelines",icon:"🏅"},
   {name:"Data Science Job Simulation",org:"British Airways",note:"Data cleaning, EDA, discrepancy handling, business insights",icon:"✈"},
   {name:"Data Visualization Job Simulation",org:"Tata",note:"Power BI, business scenarios, stakeholder communication",icon:"📊"},
